@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from io import StringIO
-import google.generativeai as genai
+from google import generativeai as genai
 genai.configure(api_key="AIzaSyAWMp6F7RwJw2JEZEE3gQxfGsi-TCkvSs8")
 
 # Function to generate test data
