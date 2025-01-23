@@ -1,8 +1,8 @@
+import google.generativeai as genai
+genai.configure(api_key="AIzaSyAWMp6F7RwJw2JEZEE3gQxfGsi-TCkvSs8")
 import streamlit as st
 import pandas as pd
 from io import StringIO
-import google.generativeai as genai
-genai.configure(api_key="AIzaSyAWMp6F7RwJw2JEZEE3gQxfGsi-TCkvSs8")
 
 # Function to generate test data
 def generate_test_data(schema_df, num_records, column_name, instructions, separator="|"):
